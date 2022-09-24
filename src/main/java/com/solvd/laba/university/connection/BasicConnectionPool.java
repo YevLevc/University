@@ -13,7 +13,7 @@ public class BasicConnectionPool implements ConnectionPool {
     private String password;
     private List<Connection> connectionPool;
     private List<Connection> usedConnections = new ArrayList<>();
-    private static int INITIAL_POOL_SIZE = 10;
+    private static int INITIAL_POOL_SIZE = 3;
 
     public static BasicConnectionPool create(
             String url, String user,
@@ -34,7 +34,6 @@ public class BasicConnectionPool implements ConnectionPool {
         this.password = password;
         this.connectionPool = connectionPool;
     }
-// standard constructors
 
     @Override
     public Connection getConnection() {
@@ -75,5 +74,11 @@ public class BasicConnectionPool implements ConnectionPool {
         return connectionPool.size() + usedConnections.size();
     }
 
-    // standard getters
+    public List<Connection> getConnectionPool() {
+        return connectionPool;
+    }
+
+    public List<Connection> getUsedConnections() {
+        return usedConnections;
+    }
 }

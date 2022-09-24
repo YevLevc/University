@@ -1,4 +1,4 @@
-package com.solvd.laba.university;
+package com.solvd.laba.university.enums;
 
 public enum Degree {
 
@@ -6,7 +6,8 @@ public enum Degree {
 
     private String degree;
 
-    Degree(String candidate) {
+    Degree(String degree) {
+        this.degree = degree;
     }
 
     public String getDegree() {

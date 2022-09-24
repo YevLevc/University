@@ -1,15 +1,18 @@
 package com.solvd.laba.university;
 
-public class LectorsData {
+public class Lectors {
     private int id;
     private String name;
     private String surname;
-    private String degree;
+    private int seniority;
 
-    public LectorsData(int id, String name, String surname, String degree) {
+    private Degrees degree;
+
+    public Lectors(int id, String name, String surname, int seniority, Degrees degree) {
         this.id = id;
         this.name = name;
         this.surname = surname;
+        this.seniority = seniority;
         this.degree = degree;
     }
 
@@ -21,7 +24,7 @@ public class LectorsData {
         this.id = id;
     }
 
-    public LectorsData() {
+    public Lectors() {
     }
 
     public String getName() {
@@ -40,11 +43,19 @@ public class LectorsData {
         this.surname = surname;
     }
 
-    public String getDegree() {
+    public int getSeniority() {
+        return seniority;
+    }
+
+    public void setSeniority(int seniority) {
+        this.seniority = seniority;
+    }
+
+    public Degrees getDegree() {
         return degree;
     }
 
-    public void setDegree(String degree) {
+    public void setDegree(Degrees degree) {
         this.degree = degree;
     }
 }

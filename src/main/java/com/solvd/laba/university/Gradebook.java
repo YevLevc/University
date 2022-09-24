@@ -1,39 +1,65 @@
 package com.solvd.laba.university;
 
-public class StudyInfo {
-    private int studentId;
-    private String faculty;
-    private byte course;
+import com.solvd.laba.university.enums.Course;
 
-    public StudyInfo(int studentId, String faculty, byte course) {
-        this.studentId = studentId;
+import java.util.ArrayList;
+
+public class Gradebook {
+    private int id;
+    private Students student;
+    private Faculties faculty;
+    private Course course;
+
+    private ArrayList <Marks> marks;
+
+    public Gradebook(int id, Students student, Faculties faculty, Course course, ArrayList<Marks> marks) {
+        this.id = id;
+        this.student = student;
         this.faculty = faculty;
         this.course = course;
+        this.marks = marks;
     }
 
-    public StudyInfo(){}
-
-    public int getStudentId() {
-        return studentId;
+    public Gradebook() {
     }
 
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
+    public int getId() {
+        return id;
     }
 
-    public String getFaculty() {
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Faculties getFaculty() {
         return faculty;
     }
 
-    public void setFaculty(String faculty) {
+    public void setFaculty(Faculties faculty) {
         this.faculty = faculty;
     }
 
-    public byte getCourse() {
+    public Course getCourse() {
         return course;
     }
 
-    public void setCourse(byte course) {
+    public void setCourse(Course course) {
         this.course = course;
+    }
+
+    public Students getStudent() {
+        return student;
+    }
+
+    public void setStudent(Students student) {
+        this.student = student;
+    }
+
+    public ArrayList<Marks> getMarks() {
+        return marks;
+    }
+
+    public void setMarks(ArrayList<Marks> marks) {
+        this.marks = marks;
     }
 }
