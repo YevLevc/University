@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StudentsList>
+    <student id="1">
+        <name>Ivan</name>
+        <surname>Petrenko</surname>
+        <birthDate>1990-03-12</birthDate>
+        <address>Lviv</address>
+    </student>
+    <student id="2">
+        <name>Stepan</name>
+        <surname>Dodenko</surname>
+        <birthDate>1980-04-20</birthDate>
+        <address>Kharkiv</address>
+    </student>
+    <student id="3">
+        <name>Serhii</name>
+        <surname>Semenko</surname>
+        <birthDate>1985-05-30</birthDate>
+        <address>Kyiv</address>
+    </student>
+    <student id="4">
+        <name>Taras</name>
+        <surname>Shevchenko</surname>
+        <birthDate>1981-03-10</birthDate>
+        <address>Poltava</address>
+    </student>
+    <student id="5">
+        <name>Semen</name>
+        <surname>Ivanenko</surname>
+        <birthDate>1979-02-01</birthDate>
+        <address>Kyiv</address>
+    </student>
+    <student id="6">
+        <name>Oleksandr</name>
+        <surname>Demchenko</surname>
+        <birthDate>1991-08-12</birthDate>
+        <address>Odesa</address>
+    </student>
+    <student id="7">
+        <name>Oleh</name>
+        <surname>Taranenko</surname>
+        <birthDate>1995-11-25</birthDate>
+        <address>Odesa</address>
+    </student>
+    <student id="8">
+        <name>Serhii</name>
+        <surname>Stashenko</surname>
+        <birthDate>1994-12-20</birthDate>
+        <address>Vinnytsia</address>
+    </student>
+    <student id="9">
+        <name>Oleksii</name>
+        <surname>Dmytrenko</surname>
+        <birthDate>1988-10-01</birthDate>
+        <address>Kharkiv</address>
+    </student>
+    <student id="10">
+        <name>Dmytro</name>
+        <surname>Bremenko</surname>
+        <birthDate>1997-04-05</birthDate>
+        <address>Kherson</address>
+    </student>
+    <student id="11">
+        <name>Vitalii</name>
+        <surname>Volenko</surname>
+        <birthDate>1998-11-11</birthDate>
+    </student>
+    <student id="12">
+        <name>Svitlana</name>
+        <surname>Stasenko</surname>
+        <birthDate>1999-08-01</birthDate>
+        <address>Kyiv</address>
+    </student>
+    <student id="15">
+        <name>Ivan</name>
+        <surname>Petrov</surname>
+        <birthDate>1999-03-03</birthDate>
+        <address>Kyiv</address>
+    </student>
+</StudentsList>

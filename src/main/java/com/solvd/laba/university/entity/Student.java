@@ -1,13 +1,13 @@
 package com.solvd.laba.university;
 
-public class Students {
+public class Student {
     private int id;
     private String name;
     private String surname;
     private String birthDate;
     private String address;
 
-    public Students(int id, String name, String surname, String birthDate, String address) {
+    public Student(int id, String name, String surname, String birthDate, String address) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -23,7 +23,7 @@ public class Students {
         this.id = id;
     }
 
-    public Students() {
+    public Student() {
     }
 
     public String getName() {
@@ -56,5 +56,16 @@ public class Students {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", birthDate='" + birthDate + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }

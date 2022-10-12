@@ -6,13 +6,13 @@ import java.util.ArrayList;
 
 public class Gradebook {
     private int id;
-    private Students student;
-    private Faculties faculty;
+    private Student student;
+    private Faculty faculty;
     private Course course;
 
-    private ArrayList <Marks> marks;
+    private ArrayList <Mark> marks;
 
-    public Gradebook(int id, Students student, Faculties faculty, Course course, ArrayList<Marks> marks) {
+    public Gradebook(int id, Student student, Faculty faculty, Course course, ArrayList<Mark> marks) {
         this.id = id;
         this.student = student;
         this.faculty = faculty;
@@ -31,11 +31,11 @@ public class Gradebook {
         this.id = id;
     }
 
-    public Faculties getFaculty() {
+    public Faculty getFaculty() {
         return faculty;
     }
 
-    public void setFaculty(Faculties faculty) {
+    public void setFaculty(Faculty faculty) {
         this.faculty = faculty;
     }
 
@@ -47,19 +47,30 @@ public class Gradebook {
         this.course = course;
     }
 
-    public Students getStudent() {
+    public Student getStudent() {
         return student;
     }
 
-    public void setStudent(Students student) {
+    public void setStudent(Student student) {
         this.student = student;
     }
 
-    public ArrayList<Marks> getMarks() {
+    public ArrayList<Mark> getMarks() {
         return marks;
     }
 
-    public void setMarks(ArrayList<Marks> marks) {
+    public void setMarks(ArrayList<Mark> marks) {
         this.marks = marks;
+    }
+
+    @Override
+    public String toString() {
+        return "Gradebook{" +
+                "id=" + id +
+                ", student=" + student +
+                ", faculty=" + faculty +
+                ", course=" + course +
+                ", marks=" + marks +
+                '}';
     }
 }

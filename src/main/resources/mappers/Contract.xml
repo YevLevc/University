@@ -1,0 +1,28 @@
+<!DOCTYPE mapper     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.solvd.laba.university.dao.IStudentDAO">
+    <select id="getById" resultMap="studentsResult" parameterType="java.lang.Integer">
+        SELECT * from mydb.students where id = #{id}
+    </select>
+
+    <resultMap id="studentsResult" type="com.solvd.laba.university.entity.Student" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="surname" property="surname"/>
+        <result column="birth_date" property="birthDate"/>
+        <result column="address" property="address"/>
+    </resultMap>
+    <insert id="create" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO mydb.students (name, surname, birth_date, address) <!--Fields-->
+        VALUES (#{name}, #{surname}, #{birthDate}, #{address})         <!--Getters-->
+    </insert>
+    <delete id="remove">
+        DELETE FROM mydb.students WHERE id = #{id}
+    </delete>
+    <update id="update">
+        UPDATE mydb.students SET name = #{name}, surname = #{surname}, birth_date = #{birthDate}, address = #{address}
+        WHERE id = #{id};
+    </update>
+    <select id="getAll" resultMap="studentsResult">
+        SELECT * from mydb.students
+    </select>
+</mapper>

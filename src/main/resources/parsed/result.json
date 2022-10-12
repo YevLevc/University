@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "student": {
+      "id": 1,
+      "name": "Ivan",
+      "surname": "Petrenko",
+      "birthDate": "1990-03-12",
+      "address": "Lviv"
+    },
+    "admission": "2019-01-01",
+    "graduation": "2023-01-01"
+  },
+  {
+    "id": 2,
+    "student": {
+      "id": 2,
+      "name": "Stepan",
+      "surname": "Dodenko",
+      "birthDate": "1980-04-20",
+      "address": "Kharkiv"
+    },
+    "admission": "2020-01-01",
+    "graduation": "2024-01-01"
+  },
+  {
+    "id": 3,
+    "student": {
+      "id": 3,
+      "name": "Serhii",
+      "surname": "Semenko",
+      "birthDate": "1985-05-30",
+      "address": "Kyiv"
+    },
+    "admission": "2020-01-01",
+    "graduation": "2024-01-01"
+  },
+  {
+    "id": 4,
+    "student": {
+      "id": 4,
+      "name": "Taras",
+      "surname": "Shevchenko",
+      "birthDate": "1981-03-10",
+      "address": "Poltava"
+    },
+    "admission": "2021-01-01",
+    "graduation": "2025-01-01"
+  },
+  {
+    "id": 5,
+    "student": {
+      "id": 5,
+      "name": "Semen",
+      "surname": "Ivanenko",
+      "birthDate": "1979-02-01",
+      "address": "Kyiv"
+    },
+    "admission": "2019-01-01",
+    "graduation": "2023-01-01"
+  },
+  {
+    "id": 6,
+    "student": {
+      "id": 6,
+      "name": "Oleksandr",
+      "surname": "Demchenko",
+      "birthDate": "1991-08-12",
+      "address": "Odesa"
+    },
+    "admission": "2020-01-01",
+    "graduation": "2024-01-01"
+  },
+  {
+    "id": 7,
+    "student": {
+      "id": 7,
+      "name": "Oleh",
+      "surname": "Taranenko",
+      "birthDate": "1995-11-25",
+      "address": "Odesa"
+    },
+    "admission": "2021-01-01",
+    "graduation": "2025-01-01"
+  },
+  {
+    "id": 8,
+    "student": {
+      "id": 8,
+      "name": "Serhii",
+      "surname": "Stashenko",
+      "birthDate": "1994-12-20",
+      "address": "Vinnytsia"
+    },
+    "admission": "2022-01-01",
+    "graduation": "2026-01-01"
+  },
+  {
+    "id": 9,
+    "student": {
+      "id": 9,
+      "name": "Oleksii",
+      "surname": "Dmytrenko",
+      "birthDate": "1988-10-01",
+      "address": "Kharkiv"
+    },
+    "admission": "2020-01-01",
+    "graduation": "2024-01-01"
+  },
+  {
+    "id": 10,
+    "student": {
+      "id": 10,
+      "name": "Dmytro",
+      "surname": "Bremenko",
+      "birthDate": "1997-04-05",
+      "address": "Kherson"
+    },
+    "admission": "2021-01-01",
+    "graduation": "2025-01-01"
+  },
+  {
+    "id": 11,
+    "student": {
+      "id": 11,
+      "name": "Vitalii",
+      "surname": "Volenko",
+      "birthDate": "1998-11-11",
+      "address": null
+    },
+    "admission": "2019-01-01",
+    "graduation": "2023-01-01"
+  }
+]

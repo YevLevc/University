@@ -1,18 +1,18 @@
 package com.solvd.laba.university;
 
-public class Contracts {
+public class Contract {
     private int id;
-    public Students studentId;
+    public Student studentId;
     private String admissionDate;
     private String graduationDate;
 
-    public Contracts(int id, Students studentId, String admissionDate, String graduationDate) {
+    public Contract(int id, Student studentId, String admissionDate, String graduationDate) {
         this.id = id;
         this.studentId = studentId;
         this.admissionDate = admissionDate;
         this.graduationDate = graduationDate;
     }
-    public Contracts(){}
+    public Contract(){}
 
     public int getId() {
         return id;
@@ -22,11 +22,11 @@ public class Contracts {
         this.id = id;
     }
 
-    public Students getStudentId() {
+    public Student getStudentId() {
         return studentId;
     }
 
-    public void setStudentId(Students studentId) {
+    public void setStudentId(Student studentId) {
         this.studentId = studentId;
     }
 
@@ -44,5 +44,15 @@ public class Contracts {
 
     public void setGraduationDate(String graduationDate) {
         this.graduationDate = graduationDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Contract{" +
+                "id=" + id +
+                ", studentId=" + studentId +
+                ", admissionDate='" + admissionDate + '\'' +
+                ", graduationDate='" + graduationDate + '\'' +
+                '}';
     }
 }
